@@ -1,0 +1,16 @@
+debug: True
+can_interface:
+  port: "/dev/ttyAMA0"
+  baudrate: "38400"
+mqtt:
+  user: "rudloff"
+  pass: "y4uv3jpc"
+  host: "localhost"
+  port: 1884
+influxdb:
+  url: "localhost"
+  port: 8086
+  user: "rudloff"
+  pass: "y4uv3jpc"
+  database: "telegraf"
+period_s: 0.1
